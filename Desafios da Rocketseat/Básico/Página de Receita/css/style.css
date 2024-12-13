@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #EAEAEA;
+    --bg-receita:#FFFFFF;
+    --title-subtitle: #1B1B1B;
+    --footer: #8F8F8F;
+    --outher-text: #39393A;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    font-size: 1.75rem;
+    font
+}
