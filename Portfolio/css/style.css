@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans';
+}
+
+:root {
+    --main-color: #F2F2F2;
+    --bg-color: #FFFFFF;
+    --bg-button: #252525;
+    --text-color: #252525;
+}
+
+body {
+    background-color: var(--main-color);
+    padding: 60px 0px;
+}
+
+main {
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#main-interactive {
+    width: 483px;
+    height: 426px;
+    /* background-color: brown; */
+}
+
+#main-interactive h1, p{
+    color: var(--text-color);
+    padding-bottom: 20px;
+}
+
+#main-interactive h1 {
+    font-size: 72px;
+}
+
+#main-interactive p{
+    font-size: 24px;
+}
+
+#main-interactive button{
+    width: 288px;
+    height: 66px;
+    font-size: 24px;
+    color: var(--bg-color);
+    background-color: var(--bg-button);
+    border: none;
+    border-radius: 36px;
+}
+
+#main-interactive button:hover {
+    cursor: pointer;
+    background-color: #585858;
+}
+
+#main-img {
+    width: 600px;
+    height: 600px;
+    /* background-color: red; */
+}
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    background-color: var(--bg-color);
+}
+
+#background-fruits {
+    padding: 0px 20px;
+    /* background-color: rgb(43, 18, 18); */
+}
+
+#text-content {
+    /* background-color: brown; */
+}
