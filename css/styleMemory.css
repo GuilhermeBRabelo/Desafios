@@ -8,19 +8,80 @@
 body {
     font-family: "Poppins", sans-serif;
     background-color: var(--bg-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px;
 }
 
-main hr {
-    display: block;
+#containerFoto {
+    height: 80%;
+    width: 80%;
+}
+
+h2{
+    text-align: center;
+    padding-top: 8px;
+}
+
+#foto{
+    border-radius: 20px;
+}
+
+
+#horarioContainer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+h2 {
+    color: wheat;
+}
+
+footer {
+    width: 80%;
+}
+
+footer hr {
     width: 80%;
     color: rgb(58, 0, 121);
 }
 
-footer {
-    
+footer p {
+    color: wheat;
 }
+
+/* #containerSpotify {
+    width: 300px;
+    height: 100px;
+}
+
+#fotoContainer img {
+    width: 80%;
+    height: 80%;
+    border-radius: 18px;
+}
+
+main hr {
+    color: rgb(58, 0, 121);
+}
+
+footer {
+    width: 30%;
+    color: white;
+    text-align: center;
+}
+
+ */
+
+
+/* 
 
 footer p {
     border: 2px solid;
     color: white;
-}
+} */
