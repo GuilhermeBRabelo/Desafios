@@ -55,33 +55,45 @@ footer p {
     color: wheat;
 }
 
-/* #containerSpotify {
-    width: 300px;
-    height: 100px;
+@media screen and (min-width: 300px) and (max-width: 800px) {
+    
+    body {
+        font-family: "Poppins", sans-serif;
+        background-color: var(--bg-color);
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #fotoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 80%;
+        height: 80%;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    footer {
+        width: 80%;
+    }
+
+    footer hr {
+        width: 100%;
+        color: rgb(58, 0, 121);
+    }
+
+    footer p {
+        font-size: 14px;
+        text-align: center;
+    }
+
 }
-
-#fotoContainer img {
-    width: 80%;
-    height: 80%;
-    border-radius: 18px;
-}
-
-main hr {
-    color: rgb(58, 0, 121);
-}
-
-footer {
-    width: 30%;
-    color: white;
-    text-align: center;
-}
-
- */
-
-
-/* 
-
-footer p {
-    border: 2px solid;
-    color: white;
-} */
