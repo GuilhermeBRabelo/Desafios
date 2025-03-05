@@ -23,7 +23,7 @@ function calcularTempoDecorrido() {
     }
 
     document.getElementById('tempo-decorrido').textContent = 
-        `${anos} Ano, ${meses} Mês, ${dias} Dia, ${horas} horas ${minutos} minutos ${segundos} segundos`;
+        `${anos} Ano, ${meses} Mês, ${dias} Dia, ${horas} horas ${minutos} minutos e ${segundos} segundos`;
 }
 
 // Atualiza imediatamente e depois a cada segundo
